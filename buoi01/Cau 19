@@ -1,0 +1,16 @@
+sv = [
+    {"masv": "SV01", "ten": "An", "dtb": 8.5},
+    {"masv": "SV02", "ten": "Khoa", "dtb": 9.0},
+    {"masv": "SV03", "ten": "Chau", "dtb": 9.0}
+]
+ma = input("Nhap ma SV: ")
+tim_thay = False
+for i in sv:
+    if i["masv"] == ma:
+        print("Ma SV:", i["masv"])
+        print("Ten:", i["ten"])
+        print("DTB:", i["dtb"])
+        tim_thay = True
+        break
+if tim_thay == False:
+    print("Khong tim thay sinh vien")

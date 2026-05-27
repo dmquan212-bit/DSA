@@ -1,0 +1,9 @@
+def linear_search(a, x):
+    for i in range(len(a)):
+        if a[i] == x:
+            return i
+    return -1
+a = [int(i) for i in input("Nhap mang: ").split()]
+x = int(input("Nhap x: "))
+result = linear_search(a, x)
+print("Vi tri tim thay la:", result)

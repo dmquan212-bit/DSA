@@ -1,0 +1,27 @@
+danhba = []
+while True:
+    print("1.Them  2.Tim ten  3.Tim so  4.Dem dau so  0.Thoat")
+    chon = input("Chon: ")
+    if chon == "1":
+        ten = input("Ten: ")
+        sdt = input("SDT: ")
+        danhba.append([ten, sdt])
+    elif chon == "2":
+        ten = input("Nhap ten: ")
+        for i in danhba:
+            if i[0] == ten:
+                print(i[1])
+    elif chon == "3":
+        sdt = input("Nhap so: ")
+        for i in danhba:
+            if i[1] == sdt:
+                print(i[0])
+    elif chon == "4":
+        dau = input("Nhap dau so: ")
+        dem = 0
+        for i in danhba:
+            if i[1].startswith(dau):
+                dem += 1
+        print(dem)
+    elif chon == "0":
+        break

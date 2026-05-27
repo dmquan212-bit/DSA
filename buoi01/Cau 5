@@ -1,0 +1,7 @@
+Tìm kiếm tuyến tính không bắt buộc mảng phải sắp xếp trước.
+Vì thuật toán sẽ duyệt lần lượt từng phần tử để tìm x.
+Tìm kiếm nhị phân bắt buộc mảng phải được sắp xếp.
+Vì thuật toán chia đôi mảng để loại bỏ một nửa dữ liệu sau mỗi bước.
+
+Tuyến tính đơn giản nhưng chậm hơn.
+Nhị phân nhanh hơn nhiều khi dữ liệu lớn.

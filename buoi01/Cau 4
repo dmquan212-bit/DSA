@@ -1,0 +1,12 @@
+Trường hợp tốt nhất: 1 phép so sánh
+(x nằm ngay đầu mảng)
+Trường hợp xấu nhất: n phép so sánh
+(x ở cuối mảng hoặc không có trong mảng)
+Trường hợp trung bình: khoảng n/2 phép so sánh
+(x nằm ngẫu nhiên trong mảng)
+
+Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính là:
+
+O(n)
+
+Vì trong trường hợp xấu nhất thuật toán phải duyệt toàn bộ n phần tử của mảng.

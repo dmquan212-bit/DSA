@@ -1,0 +1,9 @@
+Thuật toán sẽ duyệt từng phần tử trong mảng từ đầu đến cuối để tìm giá trị x. Nếu gặp phần tử bằng x thì trả về vị trí của nó, nếu duyệt hết mảng mà không thấy thì trả về -1.
+
+Input: Mảng A và giá trị x cần tìm.
+Output: Vị trí của x trong mảng hoặc -1 nếu không có.
+
+Thuật toán dừng khi:
+
+Tìm thấy x.
+Hoặc đã kiểm tra hết các phần tử trong mảng.

@@ -1,0 +1,10 @@
+A = [7, 3, 9, 12, 5, 8, 1]
+x = 5
+for i in range(len(A)):
+    print("i =", i, "| A[i] =", A[i])
+    if A[i] == x:
+        print("Tim thay", x, "tai vi tri", i)
+        break
+    else:
+        print(A[i], "khac", x)
+print("Gia tri ham tra ve la:", i)

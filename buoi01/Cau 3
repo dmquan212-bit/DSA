@@ -1,0 +1,28 @@
+A = [7, 3, 9, 12, 5, 8, 1]
+# (a) x = 7
+x = 7
+count = 0
+for i in range(len(A)):
+    count += 1
+    if A[i] == x:
+        break
+print("x = 7")
+print("So phep so sanh:", count)
+# (b) x = 1
+x = 1
+count = 0
+for i in range(len(A)):
+    count += 1
+    if A[i] == x:
+        break
+print("x = 1")
+print("So phep so sanh:", count)
+# (c) x = 100
+x = 100
+count = 0
+for i in range(len(A)):
+    count += 1
+    if A[i] == x:
+        break
+print("x = 100")
+print("So phep so sanh:", count)

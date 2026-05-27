@@ -1,0 +1,10 @@
+a = [10, 22, 28, 29, 40]
+x = 26
+gan_nhat = a[0]
+vi_tri = 0
+for i in range(len(a)):
+    if abs(a[i] - x) < abs(gan_nhat - x):
+        gan_nhat = a[i]
+        vi_tri = i
+print("Gan nhat la:", gan_nhat)
+print("Vi tri:", vi_tri)

@@ -1,0 +1,14 @@
+def min_max(a):
+    minn = maxx = a[0]
+    vtmin = vtmax = 0
+    for i in range(len(a)):
+        if a[i] < minn:
+            minn = a[i]
+            vtmin = i
+        if a[i] > maxx:
+            maxx = a[i]
+            vtmax = i
+    print("Min =", minn, "tai vi tri", vtmin)
+    print("Max =", maxx, "tai vi tri", vtmax)
+a = [12, 5, 9, 30, 18]
+min_max(a)
